@@ -1,25 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { createGlobalStyle } from "styled-components";
+import { Discover } from "./components/Discover";
+import { Home } from "./components/home";
+import { Join } from "./components/Join";
+import { colors } from "./theme";
 
 function App() {
+  
+  const GlobalStyle = createGlobalStyle`
+    body {
+      margin: 0;
+      font-family: "Poppins", sans-serif;
+      font-size: 1.2rem;
+      text-decoration: none;
+    }
+    html {
+      background-color: ${colors["general-bg"]};
+    }
+  `
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/discover" element={<Discover />} />
+            <Route path="/join" element={<Join />} />
+          </Routes>
+        </BrowserRouter>
+    </>
   );
 }
 
