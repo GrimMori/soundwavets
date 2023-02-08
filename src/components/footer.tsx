@@ -13,16 +13,27 @@ export function Footer(){
         align-items: center;
         display: flex;
         flex-direction: row;
-        height: 70px;
+        height: 60px;
     `
 
     const FooterNavButton = styled(NavButton)`
+        font-size: 1.1rem;
         font-weight: bold;
-        margin: 0 20px 0 5px;
-    `;
+        margin: 0 25px 0 8px;
+    `
 
     const Div = styled.div`
         align-content: center;
+        margin: 0 0px 0 85px;
+    `
+
+    const Div2 = styled.div`
+        align-content: center;
+        margin: 0 85px 0 0px;
+    `
+
+    const Img = styled.img`
+        height: 1.1rem;
     `
 
     return (
@@ -31,12 +42,12 @@ export function Footer(){
                 <FooterNavButton>About Us</FooterNavButton>
                 <FooterNavButton>Contact</FooterNavButton>
             </Div>
-            <Div>
-                <img src="twitter.svg" alt=""></img>
+            <Div2>
+                <Img src="twitter.svg" alt=""></Img>
                 <FooterNavButton>Twitter</FooterNavButton>
-                <img src="facebook.svg" alt=""></img>
+                <Img src="facebook.svg" alt=""></Img>
                 <FooterNavButton>Facebook</FooterNavButton>
-            </Div>
+            </Div2>
         </StyledFooter>
     )
 }

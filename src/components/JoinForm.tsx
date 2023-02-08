@@ -17,7 +17,7 @@ export function JoinForm(){
         width: 400px;
         margin: 5px 0 30px 0;
         border: ${colors["border-input"]} 1px solid;
-        border-radius: 3px;
+        border-radius: 4px;
         background-color: ${colors["nav-bg"]};
         font-size: 1.5rem;
         &:focus{
