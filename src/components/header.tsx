@@ -6,8 +6,8 @@ import { NavButton } from "./NavButton";
 export function Header(){
       
     const NavLogo = styled.img`
-        width: 50px;
-        height: 50px;
+        width: 56px;
+        height: 56px;
         padding: 13px;
     `
 
@@ -27,6 +27,7 @@ export function Header(){
         flex-direction: row;
         align-items: center;
         text-decoration: none;
+        font-size: 1.4rem;
         &:visited{
             text-decoration: none;
         }
@@ -42,6 +43,7 @@ export function Header(){
         display: flex;
         flex-direction: row;
         align-items: center;
+        padding: 0 40px 0 0;
     `
 
     return(

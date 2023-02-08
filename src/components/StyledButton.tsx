@@ -6,9 +6,11 @@ export const StyledButton = styled.a`
     background-color: ${colors["button-bg"]};
     border: 0px;
     border-radius: 8px;
-    padding: 12px 20px 12px 20px;
-    font-size: 1rem;
+    padding: 12px;
+    font-size: 0.8rem;
     text-decoration: none;
+    text-align: center;
+    width: 5rem;
 
     &:hover {
     background-color: ${colors["button-hover"]};

@@ -24,24 +24,24 @@ export function JoinBody(){
         margin-top: 80px;
     `
     const Circle = styled.div`
-      z-index: -2;
-      border-radius: 50%;
-      width: 800px;
-      height: 800px;
-      background-color: ${colors["circle-1"]};
-      position: fixed;
-      left: -200px;
-      bottom: -200px;
+        z-index: -2;
+        border-radius: 50%;
+        width: 800px;
+        height: 800px;
+        background-color: ${colors["circle-1"]};
+        position: fixed;
+        left: -200px;
+        bottom: -200px;
     `
     const Circle2 = styled.div`
-      z-index: -2;
-      border-radius: 50%;
-      width: 500px;
-      height: 500px;
-      background-color: ${colors["circle-2"]};
-      position: fixed;
-      left: 22%;
-      top: -10%;
+        z-index: -2;
+        border-radius: 50%;
+        width: 500px;
+        height: 500px;
+        background-color: ${colors["circle-2"]};
+        position: fixed;
+        left: 22%;
+        top: -10%;
     `
 
     return(
