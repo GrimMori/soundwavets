@@ -23,6 +23,7 @@ export function JoinBody(){
         align-items: center;
         margin-top: 180px;
     `
+    
     const Circle = styled.div`
         z-index: -2;
         border-radius: 50%;
@@ -33,6 +34,7 @@ export function JoinBody(){
         left: -200px;
         bottom: -50px;
     `
+
     const Circle2 = styled.div`
         z-index: -2;
         border-radius: 50%;

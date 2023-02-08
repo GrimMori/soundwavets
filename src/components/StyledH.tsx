@@ -8,6 +8,9 @@ export const StyledH1 = styled.h1`
 
 export const StyledH2 = styled.h2`
     color: white;
+    font-size: 3.3rem;
+    font-weight: 500;
+    margin: 0;
 `
 
 export const StyledH3 = styled.h3`
