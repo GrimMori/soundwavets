@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { colors } from "../theme";
 import { NavButton } from "./NavButton";
+import logo from "../logo.png";
 
 export function Header(){
       
@@ -49,7 +50,7 @@ export function Header(){
     return(
         <StyledHeader>
           <Logo href="/">
-            <NavLogo src="logo.png" alt="logo" ></NavLogo>
+            <NavLogo src={logo} alt="logo" ></NavLogo>
             <p>SoundWave</p>
           </Logo>
           <NavDiv>

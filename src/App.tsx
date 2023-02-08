@@ -7,10 +7,14 @@ import { colors } from "./theme";
 
 function App() {
   
+  
   const GlobalStyle = createGlobalStyle`
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    *{
+      font-family: "Poppins", sans-serif;
+    }
     body {
       margin: 0;
-      font-family: "Poppins", sans-serif;
       font-size: 1.2rem;
       text-decoration: none;
     }
