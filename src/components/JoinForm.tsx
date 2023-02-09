@@ -12,6 +12,10 @@ export function JoinForm(){
         margin: 0 300px 0 0;
         background-color: ${colors["nav-bg"]};
         border-radius: 20px;
+        @media (max-width: 800px){
+            width: 60vw;
+            margin: 20px;
+        }
     `
 
     const StyledLabel = styled.label`
@@ -29,6 +33,9 @@ export function JoinForm(){
         font-size: 1.5rem;
         &:focus{
             border: ${colors["border-input-focus"]}
+        }
+        @media (max-width: 800px){
+            width: 60vw;
         }
     `
 
@@ -48,6 +55,9 @@ export function JoinForm(){
         }
         &:focus {
             background-color: ${colors["button-focus"]};
+        }
+        @media (max-width: 800px){
+            width: 60vw;
         }
     `
 

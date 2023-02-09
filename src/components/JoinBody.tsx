@@ -10,6 +10,9 @@ export function JoinBody(){
         margin: 0 0 0 300px;
         font-size: 3.6rem;
         font-weight: bold;
+        @media (max-width: 800px){
+            margin: 0;
+        }
     `
 
     const Span = styled.span`
@@ -22,6 +25,11 @@ export function JoinBody(){
         justify-content: space-around;
         align-items: center;
         margin-top: 180px;
+        @media (max-width: 800px){
+            flex-direction: column;
+            width: 90vw;
+            margin: 20px;
+        }
     `
     
     const Circle = styled.div`
@@ -33,6 +41,12 @@ export function JoinBody(){
         position: fixed;
         left: -200px;
         bottom: -50px;
+        @media (max-width: 800px){
+            width: 150px;
+            height: 150px;
+            left: -30px;
+            bottom: 0px;
+        }
     `
 
     const Circle2 = styled.div`
@@ -44,6 +58,12 @@ export function JoinBody(){
         position: fixed;
         left: 19%;
         top: -15%;
+        @media (max-width: 800px){
+            width: 120px;
+            height: 120px;
+            left: 15%;
+            top: -35px;
+        }
     `
 
     return(
