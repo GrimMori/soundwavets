@@ -17,4 +17,8 @@ export const NavButton = styled.a`
     &:visited {
         text-decoration: none;
     }
+    @media (max-width: 800px){
+        font-size: 1rem;
+        margin-right: 0px;
+    }
 `

@@ -4,6 +4,10 @@ export const StyledH1 = styled.h1`
     font-size: 3.2rem;
     margin: 0;
     color: white;
+    @media (max-width: 800px){
+        font-size: 3rem;
+        font-weight: 600;
+    }
 `
 
 export const StyledH2 = styled.h2`

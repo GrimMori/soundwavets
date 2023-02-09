@@ -10,6 +10,18 @@ export function Header(){
         width: 56px;
         height: 56px;
         padding: 13px;
+
+        @media (max-width: 800px){
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+        }
+    `
+
+    const P = styled.p`
+        @media (max-width: 800px){
+            font-size: 1.2rem;
+        }
     `
 
     const StyledHeader = styled.header`
@@ -19,6 +31,9 @@ export function Header(){
         justify-content: space-around;
         padding: 20px 0 0 0;
         width: 100vw;
+        @media (max-width: 800px){
+            border: 0px solid red;
+        }
     `
 
     const Logo = styled.a`
@@ -50,8 +65,8 @@ export function Header(){
     return(
         <StyledHeader>
           <Logo href="/">
-            <NavLogo src={logo} alt="logo" ></NavLogo>
-            <p>SoundWave</p>
+            <NavLogo src="logo.png" alt="logo" ></NavLogo>
+            <P>SoundWave</P>
           </Logo>
           <NavDiv>
             <NavButton href="/discover">Discover</NavButton>
