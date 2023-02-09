@@ -15,6 +15,10 @@ export const StyledH2 = styled.h2`
     font-size: 3.3rem;
     font-weight: 500;
     margin: 0;
+    @media (max-width: 800px){
+        font-size: 3rem;
+        font-weight: 500;
+    }
 `
 
 export const StyledH3 = styled.h3`

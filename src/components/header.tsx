@@ -14,7 +14,7 @@ export function Header(){
         @media (max-width: 800px){
             width: 40px;
             height: 40px;
-            margin-left: 10px;
+            margin-left: 0px;
         }
     `
 
@@ -60,6 +60,9 @@ export function Header(){
         flex-direction: row;
         align-items: center;
         padding: 0 40px 0 0;
+        @media (max-width: 800px){
+            padding: 0 25px 0 0;
+        }
     `
 
     return(

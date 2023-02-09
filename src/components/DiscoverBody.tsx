@@ -12,6 +12,11 @@ export function DiscoverBody(){
         justify-content: center;
         align-items: center;
         margin: 100px;
+        @media (max-width: 800px){
+            flex-direction: column;
+            width: 90vw;
+            margin: 20px;
+        }
     `
 
     const IconDiv = styled.div`
@@ -24,6 +29,10 @@ export function DiscoverBody(){
         height: 100px;
         padding: 0px 0px 0px 0px;
         margin: 10px;
+        @media (max-width: 800px){
+            width: 80px;
+            height: 80px;
+        }
     `
 
     const DiscoverDiv = styled.div`
@@ -32,12 +41,15 @@ export function DiscoverBody(){
     `
 
     const Icon = styled.img`
-        width: 32px;
+        width: 28px;
         margin: 0;
     `
 
     const P = styled.p`
         margin: 10px 0 0 0;
+        @media (max-width: 800px){
+            font-size: 1rem;
+        }
     `
 
     const IconContainer = styled.div`
@@ -47,11 +59,18 @@ export function DiscoverBody(){
 
     const P2 = styled.p`
         font-size: 1.1rem;
+        @media (max-width: 800px){
+            font-size: 1rem;
+        }
     `
 
     const Covers = styled.img`
         width: 320px;
         margin: 50px;
+        @media (max-width: 800px){
+            width: 260px;
+            margin: 10px;
+        }
     `
 
     return(
