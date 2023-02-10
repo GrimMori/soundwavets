@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/soundwavets/public/static/js/main.9a2d54f5.js",
-    "index.html": "/soundwavets/public/index.html",
-    "main.9a2d54f5.js.map": "/soundwavets/public/static/js/main.9a2d54f5.js.map"
+    "main.js": "/soundwavets/static/js/main.b34fb562.js",
+    "index.html": "/soundwavets/index.html",
+    "main.b34fb562.js.map": "/soundwavets/static/js/main.b34fb562.js.map"
   },
   "entrypoints": [
-    "static/js/main.9a2d54f5.js"
+    "static/js/main.b34fb562.js"
   ]
 }
